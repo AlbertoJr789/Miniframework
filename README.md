@@ -13,8 +13,9 @@
 
 ## Rodando composer.phar
 
-    Antes é necessario criar o arquivo composer.json na raiz do projeto
-    e configurá-lo:
+Antes é necessario criar o arquivo composer.json na raiz do projeto
+e configurá-lo:
+   ```json
         {
 
             "name": "vendor-name/miniframework" //nome do projeto
@@ -36,7 +37,7 @@
             }
 
         }
-
+ ```
     após configuração:
         php composer.phar install
 
